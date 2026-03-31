@@ -3,84 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recipes to die for</title>
+    <title>Delicious Recipes</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <p class="description">
-      This is a page where we find recipies claimed to be die for on the
-      internet and try them so you don't need to
-    </p>
-    <section>
-      <ol>
-        <li>
-          <section>
-            <h2>
-              <a href="recipies/sweetNoodleKugel.html" target="_blank">
-                Sweet Noodle Kugel</a
-              >
-            </h2>
-            <p>
-              This kugel recipe is the same style of kugel we'd get in a New
-              York City area Jewish deli, and that my relatives would make for
-              holidays. There seems to be endless variations of this noodle
-              pudding now, but for me this is the authentic original version.
-            </p>
-            <figure>
-              <img
-                src="https://www.allrecipes.com/thmb/_SwWjWJf2kLHzlSrq3C0oJCjniY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/285980-sweet-noodle-kugel-DDMFS-060-4x3-beauty-e22a5f892a8e4a33885cdd7b9209b91c.jpg"
-                alt="Image of sweet noodle kugel"
-              />
-              <figcaption>
-                Photo by Jen Causey / Food Styling: Chelsea Zimmer / Prop
-                Styling: Hannah Greenwood
-              </figcaption>
-            </figure>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h2>
-              <a href="recipies/italianGrinderPastaSalad.html" target="_blank"
-                >Italian Grinder Pasta Salad</a
-              >
-            </h2>
-            <p>
-              This Italian grinder pasta salad has everything you want from your
-              favorite grinder, in a classic rotini pasta salad—salami, ham,
-              provolone, and a tangy olive oil dressing—in a batch big enough to
-              serve a crowd.
-            </p>
-            <figure>
-              <img
-                src="https://www.allrecipes.com/thmb/HAYUUm9-1LRrR0e9Hnj8lJ23DnY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/8655863_Italian-Grinder-Pasta-Salad_Dotdash-Meredith-Food-Studios_4x3-1c587c4aba10480b96cf2ab3b5758d54.jpg"
-              />
-              <figcaption>Photo by Dotdash Meredith Food Studios</figcaption>
-            </figure>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h2>
-              <a href="recipies/cheesyBuldakRamenCasserole.html" target="_blank"
-                >Cheesy Buldak Ramen Casserole</a
-              >
-            </h2>
-            <p>
-              This cheesy Buldak ramen casserole tames the heat—a little—with
-              the addition of creamy mozzarella and American cheese. It's a
-              quick and easy bake.
-            </p>
-            <figure>
-              <img
-                src="https://www.allrecipes.com/thmb/1haf1orJB2rsN8s0pTHHGRxvvss=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/11774054-Cheesy-Buldak-Ramen-Casserole-Peyton-Beckwith-Beauty-4x3-632be4866a014b9b93c9c7b2d16d6550.jpg"
-              />
-              <figcaption>Photo by Peyton Beckwith</figcaption>
-            </figure>
-          </section>
-        </li>
-      </ol>
-    </section>
+    <header>
+      <h1>Delicious Recipes</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipies/sweetNoodleKugel.html">Sweet Noodle Kugel</a></li>
+        <li><a href="recipies/italianGrinderPastaSalad.html">Italian Grinder Pasta Salad</a></li>
+        <li><a href="recipies/cheesyBuldakRamenCasserole.html">Cheesy Buldak Ramen Casserole</a></li>
+        <li><a href="recipies/strawberryCakePops.html">Strawberry Cake Pops</a></li>
+        <li><a href="recipies/classicWaffles.html">Classic Waffles</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <p class="description">
+          Welcome to Delicious Recipes! This is a page where we find recipes claimed to be to die for on the internet and try them so you don't have to.
+        </p>
+      </section>
+
+      <section class="recipe-grid">
+        <div class="card">
+          <h2><a href="recipies/sweetNoodleKugel.html">Sweet Noodle Kugel</a></h2>
+          <img src="https://www.allrecipes.com/thmb/_SwWjWJf2kLHzlSrq3C0oJCjniY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/285980-sweet-noodle-kugel-DDMFS-060-4x3-beauty-e22a5f892a8e4a33885cdd7b9209b91c.jpg" alt="Sweet Noodle Kugel">
+        </div>
+        
+        <div class="card">
+          <h2><a href="recipies/italianGrinderPastaSalad.html">Italian Grinder Pasta Salad</a></h2>
+          <img src="https://www.allrecipes.com/thmb/HAYUUm9-1LRrR0e9Hnj8lJ23DnY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/8655863_Italian-Grinder-Pasta-Salad_Dotdash-Meredith-Food-Studios_4x3-1c587c4aba10480b96cf2ab3b5758d54.jpg" alt="Italian Grinder Pasta Salad">
+        </div>
+
+        <div class="card">
+          <h2><a href="recipies/cheesyBuldakRamenCasserole.html">Cheesy Buldak Ramen Casserole</a></h2>
+          <img src="https://www.allrecipes.com/thmb/1haf1orJB2rsN8s0pTHHGRxvvss=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/11774054-Cheesy-Buldak-Ramen-Casserole-Peyton-Beckwith-Beauty-4x3-632be4866a014b9b93c9c7b2d16d6550.jpg" alt="Cheesy Buldak Ramen Casserole">
+        </div>
+
+        <div class="card">
+          <h2><a href="recipies/strawberryCakePops.html">Strawberry Cake Pops</a></h2>
+          <img src="https://www.allrecipes.com/thmb/6AXHxnXfu9Jd8EZWLTTKNnoFr4U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/starbucks-copycat-strawberries-and-cream-cake-pops-11927980-4x3-8f8541b0c74e4c7bb37e069a174507c7.jpg" alt="Strawberry Cake Pops">
+        </div>
+
+        <div class="card">
+          <h2><a href="recipies/classicWaffles.html">Classic Waffles</a></h2>
+          <img src="https://www.allrecipes.com/thmb/v0jQOt-s25Y1d32tz47tcHnv9rg=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20513-classic-waffles-mfs-025-4x3-81c0f0ace44d480ca69dd5f2c949731a.jpg">
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Created by Your Name | Web Development Assignment</p>
+    </footer>
   </body>
 </html>
